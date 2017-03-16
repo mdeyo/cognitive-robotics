@@ -1,4 +1,6 @@
+# Cognitive-Robotics
 
+Website for the 2017 Summer School on Cognitive Robotics hosted by MERS at MIT 
 
 ## Acknowledgments
 Largely based on the [Miniport](https://html5up.net/miniport) template by HTML5 UP
