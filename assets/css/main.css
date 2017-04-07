@@ -2078,7 +2078,10 @@ left: calc(50% - 215px);
 			}
 
 			#top h1 {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
+	}
+	#top h2 {
+		top:400px;
 	}
 
 	}
