@@ -2,7 +2,7 @@
 
 Website for the 2017 Summer School on Cognitive Robotics hosted by MERS at MIT 
 
-Testing changes to dev branch in webhook.
+Testing changes to dev branch in webhook. Fixed dev webhook I hope.
 
 ## Acknowledgments
 Largely based on the [Miniport](https://html5up.net/miniport) template by HTML5 UP
