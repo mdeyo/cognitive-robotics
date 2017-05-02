@@ -1814,8 +1814,14 @@ text-align: justify;
 
 	@media screen and (min-width: 737px) {
 
+		#location p{
+			text-align: justify;
+
+		}
+
 		#registration p {
 			margin-bottom: 0px;
+			text-align: justify;
 
 		}
 
@@ -1823,6 +1829,7 @@ text-align: justify;
 			margin-bottom: 2px;
 			color: #43bff0 !important;
 			font-weight: 600;
+			text-align: justify;
 		}
 
 		#registration h3{
