@@ -1825,6 +1825,12 @@ text-align: justify;
 
 		}
 
+		#committee i{
+			color: #43bff0 !important;
+			font-weight: 600;
+
+		}
+
 		#registration ul{
 			margin-bottom: 2px;
 			color: #43bff0 !important;
