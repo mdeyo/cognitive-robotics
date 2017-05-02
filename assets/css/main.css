@@ -1814,6 +1814,26 @@ text-align: justify;
 
 	@media screen and (min-width: 737px) {
 
+		#registration p {
+			margin-bottom: 0px;
+
+		}
+
+		#registration ul{
+			margin-bottom: 2px;
+			color: #43bff0 !important;
+			font-weight: 600;
+		}
+
+		#registration h3{
+			margin-bottom: 0px;
+margin-top: 40px;
+		}
+
+		#registration h4{
+			margin-bottom: 0px;
+		}
+
 		#speakers{
 			margin-left: 5%;
     margin-right: 5%;
