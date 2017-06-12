@@ -9,6 +9,10 @@
 
 /* Reset */
 
+#link-to-slides{
+	cursor: pointer;
+}
+
 #directions p{
 	font-weight: 100;
 }
