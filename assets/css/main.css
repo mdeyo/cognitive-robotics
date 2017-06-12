@@ -9,6 +9,10 @@
 
 /* Reset */
 
+.schedule-table a{
+	font-weight: 600;
+}
+
 #link-to-slides{
 	cursor: pointer;
 }
