@@ -2191,6 +2191,20 @@ left: calc(50% - 215px);
 
 	@media screen and (max-width: 736px) {
 
+
+		#portfolio h3{
+				line-height: 50px;
+			}
+
+		#portfolio #day-tab{
+			line-height: 25px;
+			font-size: 20px;
+		}
+
+		.tutorial-location{
+			font-style: italic;
+		}
+
 		#mit-image{
 			padding: 20px 0px 0px;
 			display: none;
@@ -2222,10 +2236,6 @@ left: calc(50% - 215px);
 				line-height: 1.75em;
 				font-size: 10pt;
 				letter-spacing: 0;
-			}
-
-			#portfolio h3{
-				line-height: 50px;
 			}
 
 			h1, h2, h3, h4, h5, h6 {

@@ -347,43 +347,21 @@
 		</div>
 
 
-		<!-- Registration -->
-		<div class="wrapper style1">
-			<article class="container" id="registration">
-				<header>
-					<h2>Live Stream</h2>
-				</header>
-
-				<h3 style="margin-bottom: 0px; margin-top: 30px;">How to Connect:</h3>
-
-				<p>We will be streaming the tutorials live during the summer school from 8:30am to 2:30pm (EST). MIT CSAIL provide a steam
-					service at https://replay.csail.mit.edu/ through Youtube channels.</p>
-				<p>You will be able to select the seminar room you want to watch. Tutorials preseneted on Monday, Tuesday, Wednesday and
-					Friday will be in the room Star, while Tutorials on Thursday will be presented in room Kiva. Here are the specific links
-					to the live stream in each room:</p>
-				<ul>
-					<li>- <a target="_blank" href="https://www.youtube.com/channel/UCU85GtVgZzqVH64L0ThW8IA/live">Room Star</a></li>
-					<li>- <a target="_blank" href="https://www.youtube.com/channel/UCYs2iUgksAhgoidZwEAimmg/live">Room Kiva</a></li>
-				</ul>
-
-			</article>
-		</div>
-
-
 
 		<!-- Schedule -->
 		<div class="wrapper style3">
 			<article id="portfolio">
 				<header>
 					<h2>Schedule Overview</h2>
-					<p>Tentative summer school schedule. Speakers and links to material will be available here too.</p>
+					<p>Summer school schedule. List of tutorials, speakers, and links to presented material.
+						<br> <a href="#live_stream">Live streams</a> are also available.</p>
 				</header>
 				<div class="container">
 
 
-					<h3 class="schedule-day" onclick="document.getElementById('day1').classList.toggle('closed');"><strong>Day 1 - Monday, June 12 </strong>
+					<h3 class="schedule-day" id='day-tab' onclick="document.getElementById('day1').classList.toggle('closed');"><strong>Day 1 - Monday, June 12 </strong>
 							<br>Theme: Robust Execution: Estimation, Monitoring and Scheduling<br>
-							<font size="4">Room D463 (Star) - 4th floor, Stata Center, MIT Building 32</font></h3>
+							<font class='tutorial-location' size="4">Room 32-D463 (Star) 4th floor, Stata Center, MIT</font></h3>
 					<div class="schedule-table" id="day1">
 						<table>
 							<tr>
@@ -439,45 +417,13 @@
 								<td class="time">6:00pm - 7:00pm</td>
 								<td class="opening-remarks">Open lab hours</td>
 							</tr>
-
-							<!-- <td class="session-title session-talk"><span class="paper-title">Introduction to Classical Planning</span><img class="video" src="images/noyoutube.png" title="Not recorded"
-												alt="Not recorded">
-								<br /><span class="paper-author">Patrik Haslum</span></td> -->
-							<!-- <tr>
-								<td class="time">10:30</td>
-								<td>Coffee Break</td>
-							</tr>
-							<tr>8pm
-									<br /><span class="paper-author">Patrik Haslum</span></td>
-							</tr>
-							<tr>
-								<td class="time">12:30</td>
-								<td>Lunch</td>
-							</tr>
-							<tr>
-								<td class="time">14:00</td>
-								<td class="session-title session-talk"><span class="paper-title">Computational Complexity of Planning</span>
-									<a href="proceedings/summer-school/Rintanen.pdf"><img class="paper-pdf" src="images/pdf.png"></a>
-									<a href="https://www.youtube.com/watch?v=V_y0A-Z1zXw"><img class="video" src="images/youtube.png"></a>
-									<br /><span class="paper-author">Jussi Rintanen</span></td>
-							</tr>
-							<tr>
-								<td class="time">15:30</td>
-								<td>Coffee Break</td>
-							</tr>
-							<tr>
-								<td class="time">16:00</td>
-								<td class="session-title session-talk"><span class="paper-title">Computational Complexity of Planning</span>
-									<a href="https://www.youtube.com/watch?v=V_y0A-Z1zXw&t=1h29m50s"><img class="video" src="images/youtube.png"></a>
-									<br /><span class="paper-author">Jussi Rintanen</span></td>
-							</tr> -->
 						</table>
 					</div>
 
 
-					<h3 class="schedule-day" onclick="document.getElementById('day2').classList.toggle('closed');"><strong>Day 2 - Tuesday, June 13 <br></strong>
+					<h3 class="schedule-day" id='day-tab' onclick="document.getElementById('day2').classList.toggle('closed');"><strong>Day 2 - Tuesday, June 13 <br></strong>
 							Theme: Motion Planning<br>
-							<font size="4">Room D463 (Star) - 4th floor, Stata Center, MIT Building 32</font></h3>
+							<font size="4" class='tutorial-location' >Room 32-D463 (Star) 4th floor, Stata Center, MIT</font></h3>
 					<div class="schedule-table closed" id="day2">
 
 						<table>
@@ -526,9 +472,9 @@
 						</table>
 					</div>
 
-					<h3 class="schedule-day" onclick="document.getElementById('day3').classList.toggle('closed');"><strong>Day 3 - Wednesday, June 14</strong> <br>
+					<h3 class="schedule-day" id='day-tab' onclick="document.getElementById('day3').classList.toggle('closed');"><strong>Day 3 - Wednesday, June 14</strong> <br>
 							Theme: Activity Planning (AI)<br>
-							<font size="4">Room D463 (Star) - 4th floor, Stata Center, MIT Building 32</font></h3>
+							<font class='tutorial-location' size="4">Room 32-D463 (Star) 4th floor, Stata Center, MIT</font></h3>
 					<div class="schedule-table closed" id="day3">
 
 						<table>
@@ -570,9 +516,9 @@
 						</table>
 					</div>
 
-					<h3 class="schedule-day" onclick="document.getElementById('day4').classList.toggle('closed');"><strong>Day 4 - Thursday, June 15</strong> <br>
+					<h3 class="schedule-day" id='day-tab' onclick="document.getElementById('day4').classList.toggle('closed');"><strong>Day 4 - Thursday, June 15</strong> <br>
 							Theme: Perception and Manipulation<br>
-							<font size="4">Room G449 (Kiva) - 4th floor, Stata Center, MIT Building 32</font></h3>
+							<font class='tutorial-location' size="4">Room 32-G449 (Kiva) 4th floor, Stata Center, MIT</font></h3>
 					<div class="schedule-table closed" id="day4">
 
 						<table>
@@ -618,9 +564,9 @@
 
 
 
-					<h3 class="schedule-day" onclick="document.getElementById('day5').classList.toggle('closed');"><strong>Day 5 - Friday, June 16</strong> <br>
+					<h3 class="schedule-day" id='day-tab' onclick="document.getElementById('day5').classList.toggle('closed');"><strong>Day 5 - Friday, June 16</strong> <br>
 							Theme: Planning with Uncertainty and Risk<br>
-							<font size="4">Room D463 (Star) - 4th floor, Stata Center, MIT Building 32</font></h3>
+							<font class='tutorial-location' size="4">Room 32-D463 (Star) 4th floor, Stata Center, MIT</font></h3>
 					<div class="schedule-table closed" id="day5">
 
 						<table>
@@ -722,9 +668,30 @@
 			</article>
 		</div>
 
+		<!-- Live stream -->
+		<div class="wrapper style1">
+			<article class="container" id="live_stream">
+				<header>
+					<h2>Live Stream</h2>
+				</header>
+
+				<h3 style="margin-bottom: 0px; margin-top: 30px;">How to Connect:</h3>
+
+				<p>We will be streaming the tutorials live during the summer school from 8:30am to 2:30pm (EST). MIT CSAIL provide a steam
+					service at https://replay.csail.mit.edu/ through Youtube channels.</p>
+				<p>You will be able to select the seminar room you want to watch. Tutorials preseneted on Monday, Tuesday, Wednesday and
+					Friday will be in the room Star, while Tutorials on Thursday will be presented in room Kiva. Here are the specific links
+					to the live stream in each room:</p>
+				<ul>
+					<li>- <a target="_blank" href="https://www.youtube.com/channel/UCU85GtVgZzqVH64L0ThW8IA/live">Room Star</a></li>
+					<li>- <a target="_blank" href="https://www.youtube.com/channel/UCYs2iUgksAhgoidZwEAimmg/live">Room Kiva</a></li>
+				</ul>
+
+			</article>
+		</div>
 
 		<!-- Lobaratories -->
-		<div class="wrapper style1">
+		<div class="wrapper style3">
 			<article class="container" id="location">
 				<header>
 					<h2>Labs</h2>
@@ -732,7 +699,7 @@
 
 					<h3 id='lab1_top' class="schedule-day" onclick="document.getElementById('lab1').classList.toggle('closed');"><strong>
 						Lab 1 - Monday, June 12: Enterprise/ROS Familiarization and Robust Execution</strong><br>
-						<font size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
+						<font class='tutorial-location' size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
 					<div class="schedule-table closed" id="lab1">
 						<table>
 							<tr class="tutorial">
@@ -768,7 +735,7 @@
 
 					<h3 class="schedule-day" id='lab2_top' onclick="document.getElementById('lab2').classList.toggle('closed');"><strong>
 						Lab 2 - Tuesday, June 13: Incorporating Trajectory Planning for Autonomous Vehicles</strong><br>
-						<font size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
+						<font class='tutorial-location' size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
 					<div class="schedule-table closed" id="lab2">
 						<table>
 							<!-- <tr class="tutorial">
@@ -797,7 +764,7 @@
 
 					<h3 class="schedule-day" id='lab3_top' onclick="document.getElementById('lab3').classList.toggle('closed');"><strong>
 						Lab 3 - Wednesday, June 14: Incorporating Activity Planning</strong><br>
-						<font size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
+						<font class='tutorial-location' size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
 					<div class="schedule-table closed" id="lab3">
 						<table>
 							<!-- <tr class="tutorial">
@@ -826,7 +793,7 @@
 
 					<h3 class="schedule-day" id='lab4_top' onclick="document.getElementById('lab4').classList.toggle('closed');"><strong>
 						Lab 4 - Thursday, June 15: Manipulation and Multi-vehicle Routing</strong><br>
-						<font size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
+						<font class='tutorial-location' size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
 					<div class="schedule-table closed" id="lab4">
 						<table>
 							<!-- <tr class="tutorial">
@@ -856,7 +823,7 @@
 
 					<h3 class="schedule-day" id='lab5_top' onclick="document.getElementById('lab5').classList.toggle('closed');"><strong>
 						Lab 5 - Friday, June 16: Challenge - And all comes together …</strong><br>
-						<font size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
+						<font class='tutorial-location' size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
 					<div class="schedule-table closed" id="lab5">
 						<table>
 							<!-- <tr class="tutorial">
