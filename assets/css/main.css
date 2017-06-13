@@ -15,6 +15,10 @@
 
 #link-to-slides{
 	cursor: pointer;
+	width: 24px;
+top: 5px;
+position: relative;
+src:url('../../images/slides1.png');
 }
 
 #directions p{
