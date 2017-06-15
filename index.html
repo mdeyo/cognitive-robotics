@@ -460,7 +460,8 @@
 											</tr>
 											<tr class="tutorial">
 												<td class="time">1:00pm - 2:30pm</td>
-												<td class="opening-remarks">Tutorial 9: Planning Concurrent Timelines <br> Speaker: <a href="#dwang">David Wang</a>, NuVu </td>
+												<td class="opening-remarks">Tutorial 9: Planning Concurrent Timelines
+													<br> Speaker: <a href="#dwang">David Wang</a>, NuVu </td>
 											</tr>
 											<tr>
 												<td class="time">2:30pm - 3:00pm</td>
@@ -486,10 +487,12 @@
 										<tr class="tutorial">
 											<td class="time">8:30am - 10:00am</td>
 											<td class="opening-remarks">Tutorial 10: Multi-vehicle Routing with Time Windows
-												(Material: <a target="_blank" href="docs/tutorials/Tutorial10_intructions.pdf">Instructions</a>  and
-												<a target="_blank" href="docs/tutorials/Tutorial10_supporting_material.zip">Supporting Materials</a>)
+												<a target="_blank" href="docs/tutorials/Tutorial10_Multi_vehicle_Routing_with_Time_Windows.pdf.pdf">
+													<img id='link-to-slides' src='images/slides1.png'>
+												</a>
 												<br> Speaker: <a href="#pkilby">Phil Kilby</a>, CSIRO Data61
-												/ Australian National University </td>
+												/ Australian National University <br>
+												(Material: check section 1 of <a href="#lab4_top"> Lab 4 </a> material) </td>
 										</tr>
 										<tr>
 											<td class="time">10:00am - 10:30am</td>
@@ -684,12 +687,17 @@
 						</tr>
 						<tr class="tutorial">
 							<td>
-								Material:
+								<a target="_blank" href="docs/labs/lab1/Day1_Robust_Execution.pdf">Introduction Slides</a>
+							</td>
+						</tr>
+						<tr class="tutorial">
+							<td>
+								Instructions and Material:
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<p>The introduction talk slides for the lab can be found at <a target="_blank" href="docs/labs/lab1/Day1_Robust_Execution.pdf">here</a>.
+								<p>
 									You should start by reading the lab description document: <a target="_blank" href="docs/labs/lab1/Lab1_Robust_Execution.pdf">Lab1: Robust Execution</a>. Then follow the
 									<a target="_blank" href="docs/labs/lab1/Instruction_for_environment_setup.pdf">instructions</a>
 									for environment setup to download and set up mpex and the simulation environment.</p>
@@ -734,26 +742,49 @@
 						<font class='tutorial-location' size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
 				<div class="schedule-table closed" id="lab3">
 					<table>
-						<!-- <tr class="tutorial">
+						<tr class="tutorial">
 								<td>
 									Description:
 								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>...</p>
-								</td>
-							</tr>
-							<tr class="tutorial">
-								<td>
-									Material:
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>Slides.</p>
-								</td>
-							</tr> -->
+						</tr>
+						<tr>
+							<td>
+								<p>
+									In this lab we add a little excitement, by breaking into teams that participate in a friendly modeling competition!
+									Teams will use “generative” planners that take as input an initial state and goal, together with a set of operators
+									that are specified in terms of preconditions and effects.  The planner then generates an action sequence that carries
+									a system from initial state to goal.  A number of increasingly expressive planners have been developed, based on heuristic
+									forward search, which can quickly generate lengthy plans, without the need for additional search guidance.
+								</p>
+								<p>
+									The goal of this lab is to provide hands on experience with modeling generative activity planning problems in PDDL, and
+									with several state of the art heuristic forward search activity planners.  Teams model three planning problems using RMPL
+									and PDDL, and solve them with different activity planners. The first problem covers RMPL and how to use it to model actions
+									with durations, conditions, and effects. We translate our RMPL to PDDL and then use an activity planner to find a solution.
+									The second covers temporal planning problems, in which actions have different durations, and problems have deadlines.
+									The third covers mixed continuous/discrete planning problems, in which state has continuous valued variables, as well as
+									discrete propositions.  Each participant is given a specified planning problem to solve, while their team collectively solves
+									all three problems.  Given a problem description, participants model their problem using the subset of PDDL suitable for that
+									problem (classic, metric time, hybrid).  Finally, the participants evaluate their model on the respective activity planner,
+									 expressive enough for their problem, and check their performance.
+								 </p>
+							</td>
+						</tr>
+						<tr class="tutorial">
+							<td>
+								<a target="_blank" href="docs/labs/lab3/Lab3_Activity _planning.pdf">Introduction Slides</a>
+							</td>
+						</tr>
+						<!-- <tr class="tutorial">
+							<td>
+								Material:
+							</td>
+						</tr> -->
+						<!-- <tr>
+							<td>
+								<p>Slides.</p>
+							</td>
+						</tr> -->
 
 					</table>
 				</div>
@@ -763,27 +794,42 @@
 						<font class='tutorial-location' size="4">MERS lab - 2nd floor, Stata Center, MIT Building 32</font></h3>
 				<div class="schedule-table closed" id="lab4">
 					<table>
-						<!-- <tr class="tutorial">
+						<tr class="tutorial">
 								<td>
 									Description:
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<p>...</p>
+									<p>
+										The goal of this lab is provide participants experience with planning at two very different scales, f
+										ine-grained manipulation, and large scale coordination.  In doing so, the students will employ a range
+										of planning paradigms, including state-based and sample-based search, optimization, and constraint programming.
+										First, participants will gain hands on experience with modeling and solving multi-vehicle routing problems,
+										using a constraint programing framework. Second, they.will become familiar with some of the state-of-the-art
+										motion planning for robot manipulation tasks. In the first section of the lab, participants will be given a
+										multi-vehicle routing problem, will encode the problem as a constraint model, using the Minizinc constraint
+										programming language, and will employ one of the Minizinc solvers to solve the model. This exercise of
+										planning as constraint programming and optimization, offer a nice contrast to the state-space planning
+										techniques and PDDL modelling language, exercised during the Day 3 lab. In the second section of the lab,
+										participants will work on a block-stacking problem, using a manipulator that is controlled by different
+										motion planning systems.  The objective is to rearrange a set of blocks with different shapes, in order
+										to achieve different goal positions. Participants will first perform this task using a simulation environment,
+										and will then be able to test their solutions with a robotic arm.
+									</p>
 								</td>
 							</tr>
 							<tr class="tutorial">
 								<td>
-									Material:
+									Instructions and Material:
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<p>Slides.</p>
+									<p><strong>Section 1:</strong> <a target="_blank" href="docs/labs/lab4/Tutorial10_intructions.pdf">Instructions</a>  and
+									<a target="_blank" href="docs/labs/lab4/Tutorial10_supporting_material.zip">Supporting Materials</a></p>
 								</td>
-							</tr> -->
-
+							</tr>
 					</table>
 				</div>
 
